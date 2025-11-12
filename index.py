@@ -28,7 +28,7 @@ def req_map(ux, uy):
 
 
 name = input("Введите имя достопримечательности\n")
-coord = input("Введите координаты в формате: y x\n").split()
+coord = input("Введите координаты в формате: x y\n").split()
 if len(coord) != 2:
     raise Exception("Должно быть 2 координаты")
 x = float(coord[0])
